@@ -28,6 +28,12 @@ in this repository, a classifier (MNIST) with a quantum layer will be built.
   - `main.py`
 </details>
 
+## Hybrid Neural Network
+The network consists of four convolutional layers, followed by a quantum layer and a linear layer, as illustrated in the figure.
+<div>
+  <img src="imgs/model.png" alt="Img1" width="500">
+</div>
+
 ## Experiment
 To install run:
 ```bash
