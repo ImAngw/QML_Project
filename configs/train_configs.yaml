@@ -2,7 +2,7 @@
 experiment_name: 'mnist-quantum-classifier'
 checkpoint_dir: 'checkpoints/'
 seed: 104
-device: 'mps'
+device: 'cpu'
 
 
 
