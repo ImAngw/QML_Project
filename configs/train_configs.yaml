@@ -1,0 +1,33 @@
+# GENERAL
+experiment_name: 'mnist-quantum-classifier'
+checkpoint_dir: 'checkpoints/'
+seed: 104
+device: 'mps'
+
+
+
+# TRAINING
+batch_size: 64
+# 0-1, 0-3 experiments: 32
+#      0-5 experiment:  64
+#      0-8 experiment:  128
+lr: 0.0001
+# 0-1, 0-3, 0-5 experiments: 0.0001
+#           0-8 experiment:  0.00001
+
+num_epochs: 100
+require_early_stop: true
+early_stopping_patience: 20
+early_stop_desc: true
+
+
+
+# Digits you want to use during classification task
+digits: [0, 1, 2, 3, 4, 5, 6, 7]
+
+
+
+# Quantum layer parameters
+qb_rep: 5       # qbits for representation
+qb_pe: 3        # qbits for phase estimation
+iterations: 5   # number of iterations
