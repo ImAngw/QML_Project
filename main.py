@@ -59,4 +59,3 @@ if __name__ == '__main__':
     config = CentroidConfigs(**cfg_dict)
     main(config)
 
-    #  python3  main.py --config configs/train_configs.yaml
