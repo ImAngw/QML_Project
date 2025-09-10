@@ -34,6 +34,8 @@ The network consists of four convolutional layers, followed by a quantum layer a
   <img src="imgs/model.png" alt="Img1" width="500">
 </div>
 
+For further details, refer to the file: `QML_Relation.pdf`
+
 ## Experiment
 To install run:
 ```bash
@@ -45,7 +47,9 @@ python3  main.py --config configs/train_configs.yaml
 ```
 `train_configs.yaml` contains all the settings you can configure for training.  
 
-***NOTE***: by default, `device='cpu'`. For faster execution, replace it with your preferred device.
+***NOTE***: by default, `device='cpu'`. For faster execution, replace it with your preferred device.  
+
+Experiment results are available in: `QML_Relation.pdf`
 
 
 
