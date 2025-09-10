@@ -37,5 +37,8 @@ To retrain the model and display the confusion matrices (before and after traini
 ```bash
 python3  main.py --config configs/train_configs.yaml
 ```
+`train_configs.yaml` contains all the settings you can configure for training.  
+***NOTE***: by default, `device='cpu'`. For faster execution, replace it with your preferred device.
+
 
 
